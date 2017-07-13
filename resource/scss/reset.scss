@@ -1,0 +1,25 @@
+html{
+	margin: 0;
+	padding:0;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color:#999;
+	@extend html;
+}
+ul{
+	list-style-type: none;
+	color:red;
+	font-size:50px;
+	border-top:2px solid #03ccbb;
+	border-left:2px solid #03ccbb;
+	overflow:hidden;
+}
+ul li{
+	border-bottom:2px solid #03ccbb;
+	border-right:2px solid #03ccbb;
+	float:left;
+	width:300px;
+	height:300px;
+}
